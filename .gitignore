@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.sites-runtime/
+.env
+.env.*
+!.env.example
+*.log
+
+# Local reference captures and generated review output
+ref/
+.impeccable/review/
+
+# Local workspace settings and credentials
+.codex/
+.agents/
+.aws/

@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-07T17:13:47.312Z",
+  "title": "Design System: Египет — путешествие сквозь тысячелетия",
+  "extensions": {
+    "colorMeta": {
+      "gold": {
+        "role": "primary",
+        "displayName": "Sunset Gold",
+        "tonalRamp": [
+          "oklch(15.00% 0.09182 81.20)",
+          "oklch(26.43% 0.09182 81.20)",
+          "oklch(37.86% 0.09182 81.20)",
+          "oklch(49.29% 0.09182 81.20)",
+          "oklch(60.71% 0.09182 81.20)",
+          "oklch(72.14% 0.09182 81.20)",
+          "oklch(83.57% 0.09182 81.20)",
+          "oklch(95.00% 0.09182 81.20)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Umber Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.03184 61.86)",
+          "oklch(26.43% 0.03184 61.86)",
+          "oklch(37.86% 0.03184 61.86)",
+          "oklch(49.29% 0.03184 61.86)",
+          "oklch(60.71% 0.03184 61.86)",
+          "oklch(72.14% 0.03184 61.86)",
+          "oklch(83.57% 0.03184 61.86)",
+          "oklch(95.00% 0.03184 61.86)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Papyrus",
+        "tonalRamp": [
+          "oklch(15.00% 0.04990 73.04)",
+          "oklch(26.43% 0.04990 73.04)",
+          "oklch(37.86% 0.04990 73.04)",
+          "oklch(49.29% 0.04990 73.04)",
+          "oklch(60.71% 0.04990 73.04)",
+          "oklch(72.14% 0.04990 73.04)",
+          "oklch(83.57% 0.04990 73.04)",
+          "oklch(95.00% 0.04990 73.04)"
+        ]
+      },
+      "light": {
+        "role": "neutral",
+        "displayName": "Ivory Light",
+        "tonalRamp": [
+          "oklch(15.00% 0.03942 86.06)",
+          "oklch(26.43% 0.03942 86.06)",
+          "oklch(37.86% 0.03942 86.06)",
+          "oklch(49.29% 0.03942 86.06)",
+          "oklch(60.71% 0.03942 86.06)",
+          "oklch(72.14% 0.03942 86.06)",
+          "oklch(83.57% 0.03942 86.06)",
+          "oklch(95.00% 0.03942 86.06)"
+        ]
+      },
+      "stone": {
+        "role": "neutral",
+        "displayName": "Weathered Stone",
+        "tonalRamp": [
+          "oklch(15.00% 0.03992 53.33)",
+          "oklch(26.43% 0.03992 53.33)",
+          "oklch(37.86% 0.03992 53.33)",
+          "oklch(49.29% 0.03992 53.33)",
+          "oklch(60.71% 0.03992 53.33)",
+          "oklch(72.14% 0.03992 53.33)",
+          "oklch(83.57% 0.03992 53.33)",
+          "oklch(95.00% 0.03992 53.33)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Ochre",
+        "tonalRamp": [
+          "oklch(15.00% 0.05064 67.31)",
+          "oklch(26.43% 0.05064 67.31)",
+          "oklch(37.86% 0.05064 67.31)",
+          "oklch(49.29% 0.05064 67.31)",
+          "oklch(60.71% 0.05064 67.31)",
+          "oklch(72.14% 0.05064 67.31)",
+          "oklch(83.57% 0.05064 67.31)",
+          "oklch(95.00% 0.05064 67.31)"
+        ]
+      },
+      "deep-stone": {
+        "role": "neutral",
+        "displayName": "Deep Stone",
+        "tonalRamp": [
+          "oklch(15.00% 0.02984 53.20)",
+          "oklch(26.43% 0.02984 53.20)",
+          "oklch(37.86% 0.02984 53.20)",
+          "oklch(49.29% 0.02984 53.20)",
+          "oklch(60.71% 0.02984 53.20)",
+          "oklch(72.14% 0.02984 53.20)",
+          "oklch(83.57% 0.02984 53.20)",
+          "oklch(95.00% 0.02984 53.20)"
+        ]
+      },
+      "reading-stone": {
+        "role": "neutral",
+        "displayName": "Reading Stone",
+        "tonalRamp": [
+          "oklch(15.00% 0.02651 54.10)",
+          "oklch(26.43% 0.02651 54.10)",
+          "oklch(37.86% 0.02651 54.10)",
+          "oklch(49.29% 0.02651 54.10)",
+          "oklch(60.71% 0.02651 54.10)",
+          "oklch(72.14% 0.02651 54.10)",
+          "oklch(83.57% 0.02651 54.10)",
+          "oklch(95.00% 0.02651 54.10)"
+        ]
+      },
+      "footer-stone": {
+        "role": "neutral",
+        "displayName": "Footer Stone",
+        "tonalRamp": [
+          "oklch(15.00% 0.01790 55.40)",
+          "oklch(26.43% 0.01790 55.40)",
+          "oklch(37.86% 0.01790 55.40)",
+          "oklch(49.29% 0.01790 55.40)",
+          "oklch(60.71% 0.01790 55.40)",
+          "oklch(72.14% 0.01790 55.40)",
+          "oklch(83.57% 0.01790 55.40)",
+          "oklch(95.00% 0.01790 55.40)"
+        ]
+      },
+      "light-plaque": {
+        "role": "neutral",
+        "displayName": "Light Plaque",
+        "tonalRamp": [
+          "oklch(15.00% 0.04916 82.16)",
+          "oklch(26.43% 0.04916 82.16)",
+          "oklch(37.86% 0.04916 82.16)",
+          "oklch(49.29% 0.04916 82.16)",
+          "oklch(60.71% 0.04916 82.16)",
+          "oklch(72.14% 0.04916 82.16)",
+          "oklch(83.57% 0.04916 82.16)",
+          "oklch(95.00% 0.04916 82.16)"
+        ]
+      },
+      "dark-plaque": {
+        "role": "neutral",
+        "displayName": "Dark Plaque",
+        "tonalRamp": [
+          "oklch(15.00% 0.03772 58.04)",
+          "oklch(26.43% 0.03772 58.04)",
+          "oklch(37.86% 0.03772 58.04)",
+          "oklch(49.29% 0.03772 58.04)",
+          "oklch(60.71% 0.03772 58.04)",
+          "oklch(72.14% 0.03772 58.04)",
+          "oklch(83.57% 0.03772 58.04)",
+          "oklch(95.00% 0.03772 58.04)"
+        ]
+      },
+      "entry-stone": {
+        "role": "neutral",
+        "displayName": "Entry Stone",
+        "tonalRamp": [
+          "oklch(15.00% 0.04067 62.91)",
+          "oklch(26.43% 0.04067 62.91)",
+          "oklch(37.86% 0.04067 62.91)",
+          "oklch(49.29% 0.04067 62.91)",
+          "oklch(60.71% 0.04067 62.91)",
+          "oklch(72.14% 0.04067 62.91)",
+          "oklch(83.57% 0.04067 62.91)",
+          "oklch(95.00% 0.04067 62.91)"
+        ]
+      },
+      "entry-hover": {
+        "role": "neutral",
+        "displayName": "Entry Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.05572 58.93)",
+          "oklch(26.43% 0.05572 58.93)",
+          "oklch(37.86% 0.05572 58.93)",
+          "oklch(49.29% 0.05572 58.93)",
+          "oklch(60.71% 0.05572 58.93)",
+          "oklch(72.14% 0.05572 58.93)",
+          "oklch(83.57% 0.05572 58.93)",
+          "oklch(95.00% 0.05572 58.93)"
+        ]
+      },
+      "source-ink": {
+        "role": "neutral",
+        "displayName": "Source Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.06024 65.05)",
+          "oklch(26.43% 0.06024 65.05)",
+          "oklch(37.86% 0.06024 65.05)",
+          "oklch(49.29% 0.06024 65.05)",
+          "oklch(60.71% 0.06024 65.05)",
+          "oklch(72.14% 0.06024 65.05)",
+          "oklch(83.57% 0.06024 65.05)",
+          "oklch(95.00% 0.06024 65.05)"
+        ]
+      },
+      "dark-source": {
+        "role": "neutral",
+        "displayName": "Dark Source",
+        "tonalRamp": [
+          "oklch(15.00% 0.07931 78.36)",
+          "oklch(26.43% 0.07931 78.36)",
+          "oklch(37.86% 0.07931 78.36)",
+          "oklch(49.29% 0.07931 78.36)",
+          "oklch(60.71% 0.07931 78.36)",
+          "oklch(72.14% 0.07931 78.36)",
+          "oklch(83.57% 0.07931 78.36)",
+          "oklch(95.00% 0.07931 78.36)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Portal title on desktop; small-screen size is documented separately."
+      },
+      "gateway-subtitle": {
+        "displayName": "Gateway subtitle",
+        "purpose": "Medium serif subtitle beneath the portal title."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Chapter titles with tight leading and balanced wrapping."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Expressive first paragraph of a chapter."
+      },
+      "title": {
+        "displayName": "Plaque title",
+        "purpose": "Short museum fact heading."
+      },
+      "fact-number": {
+        "displayName": "Fact number",
+        "purpose": "Large factual value on a museum plaque."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Historical reading paragraphs; normally capped at 65ch."
+      },
+      "entry-label": {
+        "displayName": "Entrance label",
+        "purpose": "The framed entry link."
+      },
+      "navigation": {
+        "displayName": "Primary navigation",
+        "purpose": "Quiet serif links in the portal header."
+      },
+      "chapter-navigation": {
+        "displayName": "Chapter navigation",
+        "purpose": "Seven chapter anchors beneath the portal."
+      },
+      "label": {
+        "displayName": "Source label",
+        "purpose": "Small factual references and reading status."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Image attribution and reconstruction provenance."
+      }
+    },
+    "shadows": [
+      {
+        "name": "plaque-light",
+        "value": "0 15px 38px -22px rgba(64,40,19,.4)",
+        "purpose": "Soft material lift under pale fact plaques."
+      },
+      {
+        "name": "plaque-dark",
+        "value": "0 18px 50px -28px #130c07",
+        "purpose": "Fact plaques within dark exhibition chapters."
+      },
+      {
+        "name": "reading-bar",
+        "value": "0 5px 24px -12px #130c0777",
+        "purpose": "The fixed reading navigation edge."
+      },
+      {
+        "name": "portal-title",
+        "value": "0 3px 26px rgba(24,16,11,.32)",
+        "purpose": "Text shadow protecting the title over the panorama."
+      },
+      {
+        "name": "papyrus-artifact",
+        "value": "0 18px 22px rgba(79,47,16,.2)",
+        "purpose": "Drop shadow behind the contained papyrus museum object."
+      }
+    ],
+    "motion": [
+      {
+        "name": "navigation-color",
+        "value": "color .2s",
+        "purpose": "Primary navigation and source-directory hover."
+      },
+      {
+        "name": "entry-hover",
+        "value": "background .25s,transform .25s",
+        "purpose": "Entrance fill warms and rises by 2px."
+      },
+      {
+        "name": "chapter-underline",
+        "value": "transform .3s",
+        "purpose": "Scale the gold current/hover underline into view."
+      },
+      {
+        "name": "plaque-tilt",
+        "value": "rotate .35s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Fine-pointer plaque tilt, maximum 3 degrees with 1200px perspective."
+      },
+      {
+        "name": "plaque-reveal",
+        "value": ".65s power2.out",
+        "purpose": "Scroll-linked reveal from y:20 and opacity:.25; reverses with scroll."
+      },
+      {
+        "name": "smooth-wheel",
+        "value": "1.15s",
+        "purpose": "Lenis desktop wheel-scroll duration."
+      },
+      {
+        "name": "chapter-anchor",
+        "value": "1.35s",
+        "purpose": "Desktop anchor scrolling to a chapter."
+      },
+      {
+        "name": "entrance-anchor",
+        "value": "2.4s",
+        "purpose": "Desktop entrance-link scrolling into the same flight route."
+      },
+      {
+        "name": "reduced-motion",
+        "value": ".01ms",
+        "purpose": "CSS transition and animation durations under system reduced motion; scene and tilt are disabled."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "editorial-tight",
+        "value": "1100px"
+      },
+      {
+        "name": "plaque-tight",
+        "value": "900px"
+      },
+      {
+        "name": "reading-mobile",
+        "value": "700px"
+      },
+      {
+        "name": "chapter-index-desktop",
+        "value": "701px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Entrance action",
+      "kind": "button",
+      "refersTo": "button-entry",
+      "description": "The gold-framed entry link over dark stone, with the authored horizontal arrow.",
+      "html": "<a class=\"ds-entry\" href=\"#nile\">Войти в историю <svg viewBox=\"0 0 28 16\" aria-hidden=\"true\"><path d=\"M1 8h24m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-entry{display:inline-flex;gap:18px;align-items:center;justify-content:center;min-width:15.67vw;height:3.23vw;min-height:48px;padding:0 24px;border:1px solid var(--gold,#dcb878);border-radius:2px;background:#4b3725;font:400 clamp(17px,1.33vw,23px)/1 var(--serif,'Cormorant Garamond',Georgia,serif);color:var(--gold,#dcb878);text-decoration:none;transition:background .25s,transform .25s}.ds-entry svg{width:24px;height:16px;fill:none;stroke:currentColor;stroke-width:1}.ds-entry:hover{background:#5e4028;transform:translateY(-2px)}.ds-entry:focus-visible{outline:2px solid var(--gold,#dcb878);outline-offset:6px}@media(max-width:700px){.ds-entry{height:48px;font-size:19px;background:rgba(61,43,29,.85)}}"
+    },
+    {
+      "name": "Sun motion control",
+      "kind": "button",
+      "refersTo": "button-motion",
+      "description": "Transparent SVG animation control; pressed state is quieter and keyboard focus stays visible.",
+      "html": "<div class=\"ds-stone-context\"><button class=\"ds-motion\" type=\"button\" aria-label=\"Выключить анимацию\" aria-pressed=\"false\"><svg viewBox=\"0 0 32 32\" fill=\"none\" aria-hidden=\"true\"><circle cx=\"16\" cy=\"16\" r=\"5\"/><path d=\"M16 2v5m0 18v5M2 16h5m18 0h5M6 6l4 4m12 12 4 4M6 26l4-4m12-12 4-4\"/></svg></button></div>",
+      "css": ".ds-stone-context{background:var(--ink,#342518)}.ds-motion{width:36px;height:36px;background:none;border:0;color:var(--light,#f7eace);padding:0;cursor:pointer}.ds-motion svg{width:33px;height:33px;stroke:currentColor;stroke-width:1.5;transform:translate(3px,3px)}.ds-motion[aria-pressed=true]{opacity:.55}.ds-motion:disabled{cursor:default}.ds-motion:focus-visible{outline:2px solid var(--gold,#dcb878);outline-offset:6px}"
+    },
+    {
+      "name": "Primary navigation",
+      "kind": "nav",
+      "refersTo": "navigation-primary",
+      "description": "Quiet serif links that warm to gold on hover.",
+      "html": "<div class=\"ds-stone-context\"><nav class=\"ds-primary-nav\" aria-label=\"Основная навигация\"><a href=\"#nile\">Экспозиция</a><a href=\"#sources\">Источники</a></nav></div>",
+      "css": ".ds-stone-context{background:var(--ink,#342518)}.ds-primary-nav{display:flex;gap:3vw;color:var(--light,#f7eace);font:400 clamp(16px,1.15vw,21px)/1 var(--serif,'Cormorant Garamond',Georgia,serif)}.ds-primary-nav a{color:inherit;text-decoration:none;transition:color .2s}.ds-primary-nav a:hover{color:var(--gold,#dcb878)}.ds-primary-nav a:focus-visible{outline:2px solid var(--gold,#dcb878);outline-offset:6px}@media(max-width:700px){.ds-primary-nav{gap:20px;font-size:17px}}"
+    },
+    {
+      "name": "Chapter index",
+      "kind": "nav",
+      "refersTo": "navigation-chapters",
+      "description": "Ordinal count and seven chapter links with gold current state, underline, and desktop vertical separators.",
+      "html": "<div class=\"ds-stone-context\"><nav class=\"ds-chapter-index\" aria-label=\"Главы экспозиции\"><span class=\"ds-chapter-counter\">01 <span class=\"ds-count-divider\">/</span> 07</span><a href=\"#nile\" aria-current=\"location\">Нил</a><a href=\"#pyramids\">Пирамиды</a><a href=\"#pharaohs\">Фараоны</a><a href=\"#writing\">Письменность</a><a href=\"#gods\">Боги</a><a href=\"#life\">Жизнь</a><a href=\"#legacy\">Наследие</a></nav></div>",
+      "css": ".ds-stone-context{background:var(--ink,#342518)}.ds-chapter-index{position:relative;min-height:58px;display:grid;grid-template-columns:1.13fr repeat(7,1fr);align-items:center;border-top:1px solid rgba(220,184,120,.5);color:var(--light,#f7eace);font:400 clamp(15px,1.12vw,19px)/1.2 var(--serif,'Cormorant Garamond',Georgia,serif)}.ds-chapter-index a{justify-self:center;text-decoration:none;position:relative;white-space:nowrap;padding:16px 5px;color:var(--light,#f7eace)}.ds-chapter-index a:after{content:'';position:absolute;left:3px;right:3px;bottom:5px;height:2px;background:var(--gold,#dcb878);transform:scaleX(0);transition:transform .3s}.ds-chapter-index a[aria-current]:after,.ds-chapter-index a:hover:after{transform:scaleX(1)}.ds-chapter-index a[aria-current]{color:var(--gold,#dcb878)}.ds-chapter-counter{padding-left:3.4vw;font-size:clamp(20px,1.55vw,26px);font-variant-numeric:tabular-nums;white-space:nowrap}.ds-count-divider{padding:0 5px;font-size:.8em;opacity:.7}.ds-chapter-index a:focus-visible{outline:2px solid var(--gold,#dcb878);outline-offset:6px}@media(min-width:701px){.ds-chapter-index a{position:absolute;top:12px;padding:8px 0}.ds-chapter-index a:nth-of-type(1){left:17.25%}.ds-chapter-index a:nth-of-type(2){left:27.07%}.ds-chapter-index a:nth-of-type(3){left:39.54%}.ds-chapter-index a:nth-of-type(4){left:51.1%}.ds-chapter-index a:nth-of-type(5){left:66.67%}.ds-chapter-index a:nth-of-type(6){left:77.39%}.ds-chapter-index a:nth-of-type(7){left:87.02%}.ds-chapter-index a:not(:first-of-type)::before{content:'';position:absolute;left:-3.4vw;top:8px;height:18px;width:1px;background:#d8c09e80}.ds-chapter-index a:nth-of-type(2)::before{left:-2.8vw}.ds-chapter-index a:nth-of-type(4)::before{left:-3.8vw}.ds-chapter-index a:nth-of-type(5)::before{left:-6vw}}@media(max-width:700px){.ds-chapter-index{grid-template-columns:80px repeat(7,100px);overflow-x:auto;scrollbar-width:none;height:64px;font-size:16px}.ds-chapter-counter{padding-left:0;font-size:22px}.ds-chapter-index a{padding:20px 0}.ds-chapter-index a:after{bottom:10px}}"
+    },
+    {
+      "name": "Reading navigation",
+      "kind": "nav",
+      "refersTo": "navigation-reading",
+      "description": "A dark reading bar and native details menu with current chapter links; its demo stays in flow for portable preview.",
+      "html": "<div class=\"ds-reading-bar\"><a href=\"#gateway\" class=\"ds-reading-brand\">ЕГИПЕТ</a><span class=\"ds-reading-current\">01 / 07 · Нил</span><details class=\"ds-reading-menu\"><summary>Главы <svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"m3 6 5 5 5-5\"/></svg></summary><nav aria-label=\"Переход к главе\"><a href=\"#nile\" aria-current=\"location\">01 · Нил</a><a href=\"#pyramids\">02 · Пирамиды</a><a href=\"#pharaohs\">03 · Фараоны</a><a href=\"#writing\">04 · Письменность</a><a href=\"#gods\">05 · Боги</a><a href=\"#life\">06 · Жизнь</a><a href=\"#legacy\">07 · Наследие</a><a href=\"#sources\">Источники</a></nav></details></div>",
+      "css": ".ds-reading-bar{height:62px;padding:0 var(--page-gutter,7.3vw);background:#34261df5;color:var(--light,#f7eace);display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #8e6c4455;box-shadow:0 5px 24px -12px #130c0777}.ds-reading-brand{font:400 21px/1 var(--serif,'Cormorant Garamond',Georgia,serif);letter-spacing:.15em;text-decoration:none;color:inherit}.ds-reading-current{font:400 12px/1.8 var(--sans,Manrope,Arial,sans-serif);color:var(--gold,#dcb878)}.ds-reading-menu{position:relative;font:400 20px/1 var(--serif,'Cormorant Garamond',Georgia,serif)}.ds-reading-menu summary{cursor:pointer;list-style:none;display:flex;gap:12px;align-items:center;padding:16px 0}.ds-reading-menu summary::-webkit-details-marker{display:none}.ds-reading-menu summary svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1}.ds-reading-menu[open] summary svg{rotate:180deg}.ds-reading-menu nav{position:absolute;right:0;top:48px;min-width:235px;background:#3c2b1f;border:1px solid #896942;padding:16px 22px;z-index:1}.ds-reading-menu a{display:block;color:inherit;font:400 17px/1.4 var(--serif,'Cormorant Garamond',Georgia,serif);padding:9px 0;text-decoration:none}.ds-reading-menu a:hover,.ds-reading-menu a[aria-current]{color:var(--gold,#dcb878)}.ds-reading-brand:focus-visible{outline:2px solid var(--gold,#dcb878);outline-offset:6px}.ds-reading-menu summary:focus-visible{outline:2px solid var(--gold,#dcb878);outline-offset:6px}.ds-reading-menu a:focus-visible{outline:2px solid var(--gold,#dcb878);outline-offset:6px}@media(max-width:700px){.ds-reading-bar{height:56px;gap:10px;padding:0 7vw}.ds-reading-brand{font-size:17px}.ds-reading-current{font-size:11px}.ds-reading-menu summary{font-size:17px}.ds-reading-menu nav{top:44px;max-height:70svh;overflow:auto}.ds-reading-menu a{padding:11px 0}}"
+    },
+    {
+      "name": "Chapter heading",
+      "kind": "custom",
+      "refersTo": "heading-chapter",
+      "description": "A subdued ordinal beside a large museum title, taken from the later-chapter heading pattern.",
+      "html": "<div class=\"ds-chapter-heading\"><span class=\"ds-chapter-number\" aria-hidden=\"true\">03</span><h2>Лицо власти.</h2></div>",
+      "css": ".ds-chapter-heading{display:flex;align-items:baseline;gap:34px;margin:0 0 46px;color:var(--ink,#342518)}.ds-chapter-number{font:400 clamp(28px,2vw,36px)/1 var(--serif,'Cormorant Garamond',Georgia,serif);min-width:48px;opacity:.7}.ds-chapter-heading h2{font:400 clamp(40px,3.2vw,58px)/1.05 var(--serif,'Cormorant Garamond',Georgia,serif);margin:0;letter-spacing:-.02em;text-wrap:balance}@media(max-width:1100px){.ds-chapter-heading h2{font-size:44px}}@media(max-width:700px){.ds-chapter-heading{gap:16px;margin-bottom:30px}.ds-chapter-number{font-size:27px;min-width:32px}.ds-chapter-heading h2{font-size:37px}}"
+    },
+    {
+      "name": "Light museum plaque",
+      "kind": "card",
+      "refersTo": "plaque-light",
+      "description": "A pale square fact plaque, with a large serif value, title, and short sans-serif explanation.",
+      "html": "<aside class=\"ds-plaque\"><span class=\"ds-plaque-number\">365</span><div><h3>Дней в гражданском календаре</h3><p>360 дней в двенадцати месяцах и ещё пять дней за их пределами.</p></div></aside>",
+      "css": ".ds-plaque{max-width:860px;display:flex;align-items:center;gap:44px;padding:32px 46px;background:rgba(248,229,195,.73);color:var(--ink,#342518);box-shadow:0 15px 38px -22px rgba(64,40,19,.4);transform-style:preserve-3d;transform:perspective(1200px);transition:rotate .35s cubic-bezier(.16,1,.3,1)}.ds-plaque-number{font:400 88px/1 var(--serif,'Cormorant Garamond',Georgia,serif);color:#8e652f;flex-shrink:0}.ds-plaque h3{font:400 29px/1.2 var(--serif,'Cormorant Garamond',Georgia,serif);margin:0 0 9px}.ds-plaque p{font:400 14px/1.8 var(--sans,Manrope,Arial,sans-serif);margin:0}@media(max-width:1100px){.ds-plaque{gap:25px;padding:28px}}@media(max-width:900px){.ds-plaque-number{font-size:68px}}@media(max-width:700px){.ds-plaque{display:block;padding:28px}.ds-plaque-number{display:block;font-size:72px;margin-bottom:16px}}@media(prefers-reduced-motion:reduce){.ds-plaque{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Dark museum plaque",
+      "kind": "card",
+      "refersTo": "plaque-dark",
+      "description": "The warm stone fact surface used within dark exhibition chapters.",
+      "html": "<aside class=\"ds-plaque-dark\"><span class=\"ds-plaque-dark-number\">146,6<span class=\"ds-unit\">м</span></span><div><h3>Первоначальная высота пирамиды Хуфу</h3><p>Первоначальный облик отличался гладкой внешней облицовкой.</p></div></aside>",
+      "css": ".ds-plaque-dark{max-width:860px;display:flex;align-items:center;gap:44px;padding:32px 46px;background:#4b3728;color:var(--light,#f7eace);box-shadow:0 18px 50px -28px #130c07;transform-style:preserve-3d;transform:perspective(1200px);transition:rotate .35s cubic-bezier(.16,1,.3,1)}.ds-plaque-dark-number{font:400 88px/1 var(--serif,'Cormorant Garamond',Georgia,serif);color:var(--gold,#dcb878);flex-shrink:0}.ds-unit{display:block;font:400 16px/1.5 var(--sans,Manrope,Arial,sans-serif);margin-top:12px}.ds-plaque-dark h3{font:400 29px/1.2 var(--serif,'Cormorant Garamond',Georgia,serif);margin:0 0 9px}.ds-plaque-dark p{font:400 14px/1.8 var(--sans,Manrope,Arial,sans-serif);margin:0}@media(max-width:1100px){.ds-plaque-dark{gap:25px;padding:28px}}@media(max-width:900px){.ds-plaque-dark-number{font-size:68px}}@media(max-width:700px){.ds-plaque-dark{display:block;padding:28px}.ds-plaque-dark-number{display:block;font-size:72px;margin-bottom:16px}}@media(prefers-reduced-motion:reduce){.ds-plaque-dark{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Inline source link",
+      "kind": "custom",
+      "refersTo": "source-link",
+      "description": "The quiet underlined reference with the current Nile chapter's authored diagonal SVG arrow.",
+      "html": "<a class=\"ds-source-link\" href=\"https://www.metmuseum.org/essays/telling-time-in-ancient-egypt\" target=\"_blank\" rel=\"noopener noreferrer\">Источник: The Metropolitan Museum of Art <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a>",
+      "css": ".ds-source-link{display:inline-flex;align-items:center;gap:8px;font:400 12px/1.8 var(--sans,Manrope,Arial,sans-serif);color:#67492b;text-decoration:none;border-bottom:1px solid #b18a5c;padding-bottom:4px}.ds-source-link:hover{color:#352415}.ds-source-link svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1}.ds-source-link:focus-visible{outline:2px solid var(--gold,#dcb878);outline-offset:6px}"
+    },
+    {
+      "name": "Source directory rows",
+      "kind": "custom",
+      "refersTo": "source-directory",
+      "description": "Square, ruled museum-reference rows with topic and institution; small screens stack the labels.",
+      "html": "<div class=\"ds-source-directory\"><a href=\"https://www.metmuseum.org/essays/telling-time-in-ancient-egypt\"><span>01 · Нил и календарь</span><span>The Metropolitan Museum of Art</span></a><a href=\"https://www.si.edu/spotlight/ancient-egypt/pyramid\"><span>02 · Египетская пирамида</span><span>Smithsonian</span></a></div>",
+      "css": ".ds-source-directory{max-width:1150px;background:#271e18;color:var(--light,#f7eace);font-family:var(--sans,Manrope,Arial,sans-serif)}.ds-source-directory a{display:flex;justify-content:space-between;gap:28px;padding:18px 0;border-top:1px solid #534032;color:inherit;text-decoration:none;font-size:14px;line-height:1.8;transition:color .2s}.ds-source-directory a:hover{color:var(--gold,#dcb878)}.ds-source-directory a span:last-child{color:#baa489;font-size:12px;text-align:right}.ds-source-directory a:focus-visible{outline:2px solid var(--gold,#dcb878);outline-offset:6px}@media(max-width:700px){.ds-source-directory a{flex-direction:column;gap:5px;padding:15px 0;font-size:13px}.ds-source-directory a span:last-child{text-align:left;font-size:11px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Stone Threshold",
+    "overview": "The visual world comes from weathered sandstone, sunset light, dark umber, and papyrus. Monumental imagery gives the visitor a sense of place; open editorial layouts and restrained museum plaques make the history comfortable to read. Cyrillic Cormorant Garamond supplies the museum voice, while Manrope carries the factual reading layer.\n\nMaterials retain their own detail. Warm washes unify the photographs and reconstructed landscapes without burying the stone carving or the papyrus grain. Depth belongs to the scene and to softly lifted fact plaques; navigation and source lists remain quiet and precise.",
+    "keyCharacteristics": [
+      "Weathered stone and textured papyrus with warm, readable tonal contrast.",
+      "Cormorant Garamond display type paired with Manrope reading text.",
+      "Open chapter layouts, visible ordinal numbers, and sparse fact plaques.",
+      "Gold for actions, current location, and keyboard focus.",
+      "Scroll-linked depth on desktop and a direct reading route on small screens."
+    ],
+    "rules": [
+      {
+        "name": "The Material Light Rule",
+        "body": "Preserve texture and carved detail before adding tint: the static portal uses `brightness(.98) saturate(1)`, and the WebGL doorway material uses white tint (`0xffffff`).",
+        "section": "colors"
+      },
+      {
+        "name": "The Gold Wayfinding Rule",
+        "body": "Use gold for actions, location, and focus; give reading paragraphs the chapter's ink or ivory text color.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Keep expressive titles, chapter leads, and fact values in Cormorant; keep factual reading, citations, captions, and units in Manrope.",
+        "section": "typography"
+      },
+      {
+        "name": "The Open Exhibition Rule",
+        "body": "Let large images and text share the page's open grid. Reserve filled panels for focused facts and the reading navigation menu.",
+        "section": "layout"
+      },
+      {
+        "name": "The Gentle Lift Rule",
+        "body": "Fact plaques may tilt by at most 3 degrees with a fine pointer; use the existing 1200px perspective and .35s `cubic-bezier(.16,1,.3,1)` return. Touch and reduced-motion reading remain stable.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve readable material detail using the Material Light Rule.",
+      "Do use gold to identify actions, location, and keyboard focus.",
+      "Do pair Cormorant museum typography with Manrope factual reading.",
+      "Do use open chapter layouts and square fact plaques with soft material lift.",
+      "Do keep source links, provenance captions, and chapter anchors visible in the static reading route.",
+      "Do preserve desktop chapter separators and the river-focused opening preview crop.",
+      "Do use the existing inline SVG marks and visible gold focus outline."
+    ],
+    "donts": [
+      "Don't darken the corrected portal texture or tint the WebGL doorway away from white.",
+      "Don't replace the textured paper wash with a plain fill or a heavier wash that buries its grain.",
+      "Don't treat the unprovided Halant fallback as the site's loaded display font.",
+      "Don't add a decorative eyebrow to the sources heading.",
+      "Don't extend the cinematic flight, particle motion, or plaque tilt into reduced-motion or small-screen reading.",
+      "Don't turn the sparse fact plaques into a uniform grid around every reading block."
+    ]
+  }
+}

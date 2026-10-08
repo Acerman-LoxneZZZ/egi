@@ -1,0 +1,293 @@
+{
+    "regions":  [
+                    {
+                        "id":  "gateway",
+                        "kind":  "plate",
+                        "box":  {
+                                    "x":  0,
+                                    "y":  0,
+                                    "w":  1,
+                                    "h":  0.871413390010627
+                                },
+                        "bleed":  true,
+                        "note":  "Photorealistic Egyptian sandstone doorway frame with two carved pillars, lintel and floor; native transparent central opening; remove all website text and controls; warm light from right.",
+                        "grid":  "A0:J8",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "giza",
+                        "kind":  "image",
+                        "box":  {
+                                    "x":  0.26614832535885169,
+                                    "y":  0.083953241232731138,
+                                    "w":  0.48504784688995217,
+                                    "h":  0.71944739638682254
+                                },
+                        "bleed":  true,
+                        "note":  "Golden-hour Giza panorama behind the gateway, three pyramids and warm atmospheric depth; remove website lettering and controls; use plausible desert plateau rather than foreground river.",
+                        "grid":  "C0:H8",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "papyrus",
+                        "kind":  "texture",
+                        "box":  {
+                                    "x":  0.0047846889952153108,
+                                    "y":  0.88416578108395327,
+                                    "w":  0.05861244019138756,
+                                    "h":  0.097768331562167909
+                                },
+                        "note":  "Warm pale cream subtly fibrous papyrus reading surface, clean material only without lettering.",
+                        "grid":  "A8:A9",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "nile-image",
+                        "kind":  "image",
+                        "box":  {
+                                    "x":  0.54425837320574166,
+                                    "y":  0.90967056323060569,
+                                    "w":  0.45574162679425839,
+                                    "h":  0.090329436769394256
+                                },
+                        "bleed":  true,
+                        "note":  "Quiet photographic Nile valley landscape, river and palms in warm late light, first reading section image.",
+                        "grid":  "F9:J9",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "brand",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.072368421052631582,
+                                    "y":  0.024442082890541977,
+                                    "w":  0.089114832535885161,
+                                    "h":  0.036131774707757705
+                                },
+                        "note":  "ЕГИПЕТ small cream spaced serif brand.",
+                        "grid":  "A0:B0",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "nav-exposition",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.430622009569378,
+                                    "y":  0.026567481402763018,
+                                    "w":  0.05921052631578947,
+                                    "h":  0.030818278427205102
+                                },
+                        "note":  "Экспозиция cream serif navigation link.",
+                        "grid":  "E0:E0",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "nav-sources",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.513755980861244,
+                                    "y":  0.026567481402763018,
+                                    "w":  0.063995215311004786,
+                                    "h":  0.030818278427205102
+                                },
+                        "note":  "Источники cream serif navigation link.",
+                        "grid":  "F0:F0",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "motion-control",
+                        "kind":  "control",
+                        "box":  {
+                                    "x":  0.90550239234449759,
+                                    "y":  0.020191285866099893,
+                                    "w":  0.025717703349282296,
+                                    "h":  0.044633368756641874
+                                },
+                        "note":  "Small cream thin-line sun icon, pause atmospheric motion control.",
+                        "grid":  "J0:J0",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "headline",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.361244019138756,
+                                    "y":  0.42933049946865037,
+                                    "w":  0.284688995215311,
+                                    "h":  0.1126461211477152
+                                },
+                        "note":  "ЕГИПЕТ large elegant cream high-contrast serif headline.",
+                        "grid":  "D4:G5",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "subtitle",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.35526315789473684,
+                                    "y":  0.54197662061636553,
+                                    "w":  0.2930622009569378,
+                                    "h":  0.040382571732199786
+                                },
+                        "note":  "Путешествие сквозь тысячелетия cream serif single line.",
+                        "grid":  "D5:G5",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "enter",
+                        "kind":  "control",
+                        "box":  {
+                                    "x":  0.42165071770334928,
+                                    "y":  0.61105207226354941,
+                                    "w":  0.15669856459330145,
+                                    "h":  0.057385759829968117
+                                },
+                        "note":  "Войти в историю thin gold outlined rectangular umber button and fine right arrow.",
+                        "grid":  "E6:F6",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "index-rule",
+                        "kind":  "chrome",
+                        "box":  {
+                                    "x":  0.037081339712918659,
+                                    "y":  0.80340063761955371,
+                                    "w":  0.92583732057416268,
+                                    "h":  0.0010626992561105207
+                                },
+                        "note":  "Thin warm gold horizontal chapter-index separator.",
+                        "grid":  "A8:J8",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "chapter-count",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.072368421052631582,
+                                    "y":  0.822529224229543,
+                                    "w":  0.048444976076555027,
+                                    "h":  0.030818278427205102
+                                },
+                        "note":  "01 / 07 current chapter count.",
+                        "grid":  "A8:B8",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "index-nile",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.19677033492822968,
+                                    "y":  0.824654622741764,
+                                    "w":  0.023923444976076555,
+                                    "h":  0.028692879914984058
+                                },
+                        "note":  "Нил chapter link.",
+                        "grid":  "B8:C8",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "index-pyramids",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.28767942583732059,
+                                    "y":  0.824654622741764,
+                                    "w":  0.050239234449760764,
+                                    "h":  0.028692879914984058
+                                },
+                        "note":  "Пирамиды chapter link.",
+                        "grid":  "C8:D8",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "index-pharaohs",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.40311004784689,
+                                    "y":  0.824654622741764,
+                                    "w":  0.04784688995215311,
+                                    "h":  0.028692879914984058
+                                },
+                        "note":  "Фараоны chapter link.",
+                        "grid":  "E8:E8",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "index-writing",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.51016746411483249,
+                                    "y":  0.824654622741764,
+                                    "w":  0.0645933014354067,
+                                    "h":  0.028692879914984058
+                                },
+                        "note":  "Письменность chapter link.",
+                        "grid":  "F8:F8",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "index-gods",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.65430622009569372,
+                                    "y":  0.824654622741764,
+                                    "w":  0.029904306220095694,
+                                    "h":  0.028692879914984058
+                                },
+                        "note":  "Боги chapter link.",
+                        "grid":  "G8:G8",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "index-life",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.75358851674641147,
+                                    "y":  0.824654622741764,
+                                    "w":  0.037081339712918659,
+                                    "h":  0.028692879914984058
+                                },
+                        "note":  "Жизнь chapter link.",
+                        "grid":  "H8:H8",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "index-legacy",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.84270334928229662,
+                                    "y":  0.824654622741764,
+                                    "w":  0.049043062200956937,
+                                    "h":  0.028692879914984058
+                                },
+                        "note":  "Наследие chapter link.",
+                        "grid":  "I8:I8",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "reading-number",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.0729665071770335,
+                                    "y":  0.91392136025504778,
+                                    "w":  0.028708133971291867,
+                                    "h":  0.045696068012752389
+                                },
+                        "note":  "01 first chapter sequence number.",
+                        "grid":  "A9:B9",
+                        "snap":  false
+                    },
+                    {
+                        "id":  "reading-title",
+                        "kind":  "text",
+                        "box":  {
+                                    "x":  0.1854066985645933,
+                                    "y":  0.90967056323060569,
+                                    "w":  0.34090909090909088,
+                                    "h":  0.060573857598299682
+                                },
+                        "note":  "Нил. Начало цивилизации. dark umber elegant serif heading.",
+                        "grid":  "B9:F9",
+                        "snap":  false
+                    }
+                ]
+}

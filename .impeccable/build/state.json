@@ -1,0 +1,411 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-10-07T14:42:02.920Z",
+  "comp": ".impeccable/mocks/egypt-a.png",
+  "direction": "8873c32d",
+  "breakpoint": "1672x941",
+  "artifact": null,
+  "phase": "review",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-10-07T14:42:02.920Z",
+      "closedAt": "2026-10-07T14:52:07.041Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "3 comps, 1 approved",
+        "approved": ".impeccable/mocks/egypt-a.png",
+        "at": "2026-10-07T14:52:07.041Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-10-07T14:52:07.058Z",
+      "closedAt": "2026-10-07T15:18:31.057Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "22 regions, 4 plates, 15 text regions measured",
+        "at": "2026-10-07T15:18:31.057Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-10-07T15:18:31.057Z",
+      "closedAt": "2026-10-07T15:24:55.352Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "4/4 plates",
+        "at": "2026-10-07T15:24:55.352Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "closed",
+      "openedAt": "2026-10-07T15:24:55.352Z",
+      "closedAt": "2026-10-07T15:47:36.485Z",
+      "attempts": 5,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "hero 79% (drift)",
+        "score": 0.7876,
+        "verdict": "drift",
+        "report": ".impeccable/review/diff/hero/report.json",
+        "sideBySide": "C:/Users/loxne/OneDrive/Документы/ChatGPT/grifitz/.impeccable/review/diff/hero/side-by-side.png",
+        "worst": [
+          "nile-image drift 51%",
+          "headline drift 60%",
+          "reading-number drift 62%"
+        ],
+        "worstIds": [
+          "nile-image",
+          "headline",
+          "reading-number"
+        ],
+        "worstCrops": [
+          {
+            "id": "nile-image",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.506,
+              "structure": 0.6786,
+              "color": 0.4883,
+              "colorIntersection": 0.2197,
+              "paletteMatch": 0.6329,
+              "detail": 0.3774,
+              "detailRaw": 0.4035,
+              "detailAdded": 0.0521,
+              "bands": 1
+            },
+            "file": ".impeccable/review/diff/hero/regions/nile-image.png"
+          },
+          {
+            "id": "headline",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.5988,
+              "structure": 0.5579,
+              "color": 0.6408,
+              "colorIntersection": 0.4104,
+              "paletteMatch": 0.7648,
+              "detail": 0.5841,
+              "detailRaw": 0.6831,
+              "detailAdded": 0.1979,
+              "bands": 0.72
+            },
+            "file": ".impeccable/review/diff/hero/regions/headline.png"
+          },
+          {
+            "id": "reading-number",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.6201,
+              "structure": 0.7197,
+              "color": 0.6488,
+              "colorIntersection": 0.4097,
+              "paletteMatch": 0.7776,
+              "detail": 0.2537,
+              "detailRaw": 0.3109,
+              "detailAdded": 0.1146,
+              "bands": 0.6
+            },
+            "file": ".impeccable/review/diff/hero/regions/reading-number.png"
+          }
+        ],
+        "advisories": [
+          "(advisory, above the 72% bar) plate nile-image is placed but not at the comp's box: its ink spans 762x85px at (0,0) in the comp region and 297x60px at (18,25) in the build; size and position the <img> to the spec box (object-fit: cover), not to the surrounding layout",
+          "(advisory, above the 72% bar; fix in the polish pass before responsive) 5 readings:",
+          "  text subtitle: ink is #f4e5c4 in the build, #a79e90 in the comp; use the comp's colour",
+          "  text chapter-count: ink is #342854 in the build, #aa9e96 in the comp; use the comp's colour",
+          "  text index-nile: ink is #743428 in the build, #ddc88f in the comp; use the comp's colour",
+          "  text index-gods: ink is #f2c57e in the build, #ede3e0 in the comp; use the comp's colour",
+          "  control enter: its rule sits 1px into the box in the comp and 51px in the build (+50px), so the strip is taller than the comp's; match the height, not only the position",
+          "(advisory, unchanged for 3+ attempts) text index-life: ink is #f8dda3 in the build, #867a76 in the comp; use the comp's colour"
+        ],
+        "regionVerdicts": {
+          "gateway": "drift",
+          "giza": "drift",
+          "papyrus": "drift",
+          "nile-image": "drift",
+          "brand": "drift",
+          "nav-exposition": "drift",
+          "nav-sources": "match",
+          "motion-control": "drift",
+          "headline": "drift",
+          "subtitle": "drift",
+          "enter": "drift",
+          "index-rule": "match",
+          "chapter-count": "drift",
+          "index-nile": "drift",
+          "index-pyramids": "drift",
+          "index-pharaohs": "drift",
+          "index-writing": "drift",
+          "index-gods": "drift",
+          "index-life": "drift",
+          "index-legacy": "drift",
+          "reading-number": "drift",
+          "reading-title": "drift"
+        },
+        "at": "2026-10-07T15:47:36.484Z"
+      },
+      "forced": null,
+      "records": 5,
+      "readingsSeen": {
+        "text headline: ink is #b16b38 in the build, #f7eace in the comp; use the comp's colour": 1,
+        "text chapter-count: ink is #21130d in the build, #aa9e96 in the comp; use the comp's colour": 1,
+        "text index-gods: ink is #382020 in the build, #ede3e0 in the comp; use the comp's colour": 1,
+        "text index-life: ink is #180808 in the build, #867a76 in the comp; use the comp's colour": 1,
+        "control enter: its rule sits 1px into the box in the comp and 29px in the build (+28px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "text nav-sources: cap height 6.3px in the build, 12.4px in the comp (-49%); set font-size so the cap height renders at 12.4px": 1,
+        "text subtitle: ink is #7d512f in the build, #a79e90 in the comp; use the comp's colour": 6,
+        "text chapter-count: ink is #402c54 in the build, #aa9e96 in the comp; use the comp's colour": 6,
+        "text index-gods: ink is #98b8c8 in the build, #ede3e0 in the comp; use the comp's colour": 1,
+        "text index-life: ink is #d89818 in the build, #867a76 in the comp; use the comp's colour": 1,
+        "text nav-sources: its first line starts 18px lower than in the comp (23px vs 5px into the region box); the spacing above it is too large": 1,
+        "text index-pyramids: it starts 39px further right than in the comp": 1,
+        "text index-pharaohs: it starts 45px further right than in the comp": 1,
+        "text index-writing: it starts 32px further right than in the comp": 1,
+        "text brand: the face renders 28% lighter than the comp's (ink density 0.50 vs 0.69); raise a weight step or use the ranked face": 5,
+        "text index-nile: ink is #804030 in the build, #ddc88f in the comp; use the comp's colour": 5,
+        "text index-life: ink is #f8dda3 in the build, #867a76 in the comp; use the comp's colour": 7,
+        "text subtitle: the face renders 25% lighter than the comp's (ink density 0.42 vs 0.57); raise a weight step or use the ranked face": 2,
+        "text subtitle: ink is #f4e5c4 in the build, #a79e90 in the comp; use the comp's colour": 2,
+        "text chapter-count: ink is #342854 in the build, #aa9e96 in the comp; use the comp's colour": 2,
+        "text index-nile: ink is #743428 in the build, #ddc88f in the comp; use the comp's colour": 2,
+        "text index-gods: ink is #f2c57e in the build, #ede3e0 in the comp; use the comp's colour": 2,
+        "control enter: its rule sits 1px into the box in the comp and 51px in the build (+50px), so the strip is taller than the comp's; match the height, not only the position": 2
+      },
+      "history": [
+        {
+          "at": "2026-10-07T15:37:17.066Z",
+          "score": 0.7808,
+          "worstIds": [
+            "brand",
+            "nav-sources",
+            "nav-exposition"
+          ],
+          "regionVerdicts": {
+            "gateway": "drift",
+            "giza": "drift",
+            "papyrus": "missing",
+            "nile-image": "missing",
+            "brand": "contradicted",
+            "nav-exposition": "missing",
+            "nav-sources": "missing",
+            "motion-control": "drift",
+            "headline": "contradicted",
+            "subtitle": "contradicted",
+            "enter": "drift",
+            "index-rule": "match",
+            "chapter-count": "drift",
+            "index-nile": "drift",
+            "index-pyramids": "drift",
+            "index-pharaohs": "drift",
+            "index-writing": "drift",
+            "index-gods": "drift",
+            "index-life": "missing",
+            "index-legacy": "drift",
+            "reading-number": "drift",
+            "reading-title": "drift"
+          },
+          "artifactHash": "1c891d7dca94"
+        },
+        {
+          "at": "2026-10-07T15:45:02.135Z",
+          "score": 0.7851,
+          "worstIds": [
+            "headline",
+            "nile-image",
+            "subtitle"
+          ],
+          "regionVerdicts": {
+            "gateway": "drift",
+            "giza": "drift",
+            "papyrus": "drift",
+            "nile-image": "drift",
+            "brand": "contradicted",
+            "nav-exposition": "drift",
+            "nav-sources": "drift",
+            "motion-control": "drift",
+            "headline": "contradicted",
+            "subtitle": "contradicted",
+            "enter": "drift",
+            "index-rule": "match",
+            "chapter-count": "drift",
+            "index-nile": "drift",
+            "index-pyramids": "drift",
+            "index-pharaohs": "drift",
+            "index-writing": "drift",
+            "index-gods": "drift",
+            "index-life": "drift",
+            "index-legacy": "drift",
+            "reading-number": "drift",
+            "reading-title": "drift"
+          },
+          "artifactHash": "a1447f956cc8"
+        },
+        {
+          "at": "2026-10-07T15:46:35.590Z",
+          "score": 0.8098,
+          "worstIds": [
+            "subtitle",
+            "nile-image",
+            "brand"
+          ],
+          "regionVerdicts": {
+            "gateway": "drift",
+            "giza": "drift",
+            "papyrus": "drift",
+            "nile-image": "drift",
+            "brand": "contradicted",
+            "nav-exposition": "drift",
+            "nav-sources": "drift",
+            "motion-control": "drift",
+            "headline": "drift",
+            "subtitle": "contradicted",
+            "enter": "drift",
+            "index-rule": "match",
+            "chapter-count": "drift",
+            "index-nile": "drift",
+            "index-pyramids": "drift",
+            "index-pharaohs": "drift",
+            "index-writing": "drift",
+            "index-gods": "drift",
+            "index-life": "drift",
+            "index-legacy": "drift",
+            "reading-number": "drift",
+            "reading-title": "drift"
+          },
+          "artifactHash": "a1447f956cc8"
+        },
+        {
+          "at": "2026-10-07T15:47:36.484Z",
+          "score": 0.7876,
+          "worstIds": [
+            "nile-image",
+            "headline",
+            "reading-number"
+          ],
+          "regionVerdicts": {
+            "gateway": "drift",
+            "giza": "drift",
+            "papyrus": "drift",
+            "nile-image": "drift",
+            "brand": "drift",
+            "nav-exposition": "drift",
+            "nav-sources": "match",
+            "motion-control": "drift",
+            "headline": "drift",
+            "subtitle": "drift",
+            "enter": "drift",
+            "index-rule": "match",
+            "chapter-count": "drift",
+            "index-nile": "drift",
+            "index-pyramids": "drift",
+            "index-pharaohs": "drift",
+            "index-writing": "drift",
+            "index-gods": "drift",
+            "index-life": "drift",
+            "index-legacy": "drift",
+            "reading-number": "drift",
+            "reading-title": "drift"
+          },
+          "artifactHash": "a1447f956cc8"
+        }
+      ]
+    },
+    "sections": {
+      "status": "closed",
+      "openedAt": "2026-10-07T15:47:36.485Z",
+      "closedAt": "2026-10-07T15:51:06.278Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-10-07T15:51:06.278Z"
+      },
+      "forced": null
+    },
+    "motion": {
+      "status": "closed",
+      "openedAt": "2026-10-07T15:51:06.278Z",
+      "closedAt": "2026-10-07T16:01:53.161Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-10-07T16:01:53.161Z"
+      },
+      "forced": null
+    },
+    "responsive": {
+      "status": "closed",
+      "openedAt": "2026-10-07T16:01:53.161Z",
+      "closedAt": "2026-10-07T16:19:06.519Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "desktop 79% (drift)",
+        "score": 0.789,
+        "sideBySide": "C:/Users/loxne/OneDrive/Документы/ChatGPT/grifitz/.impeccable/review/diff/desktop/side-by-side.png",
+        "at": "2026-10-07T16:19:06.519Z"
+      },
+      "forced": null
+    },
+    "review": {
+      "status": "closed",
+      "openedAt": "2026-10-07T16:19:06.519Z",
+      "closedAt": "2026-10-07T17:14:51.706Z",
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": {
+    "disposition": "ship",
+    "at": "2026-10-07T17:14:51.706Z",
+    "phaseAtFinish": "review"
+  },
+  "plates": {
+    "gateway": {
+      "status": "ok",
+      "score": 0.5241,
+      "size": "1788x880"
+    },
+    "giza": {
+      "status": "ok",
+      "score": 0.5748,
+      "size": "1374x1145"
+    },
+    "papyrus": {
+      "status": "ok",
+      "score": 0.7726,
+      "size": "1254x1254"
+    },
+    "nile-image": {
+      "status": "ok",
+      "score": 0.5447,
+      "size": "1672x941"
+    }
+  }
+}
